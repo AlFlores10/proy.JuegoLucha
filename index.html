@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <div class="selector">
+    <div class="selector" id="selector">
         <div onclick="selectorPersonaje(Luchador1)" class="fighter" id="fighter1">
             <img src="/img/Ryu.png" alt=""></div>
         <div onclick="selectorPersonaje(Luchador2)" class="fighter" id="fighter2">
@@ -21,12 +21,20 @@
 
 
     <div id="selectorPlayer">
-        <div id="selectorPlayer1"></div>
-        <div id="selectorPlayer2"></div>
-
+        <div id="selectorPlayer1">
+            <h2>PLAYER 1</h2>
+        </div>
+        <div id="selectorVersus">
+            <img src="/img/Versus.png" alt="">
+        </div>
+        <div id="selectorPlayer2">
+            <h2>PLAYER 2</h2>
+        </div>
     </div>
 
-    <button onclick="botonClick(500)">PULSAME</button>
+    <button onclick="botonMostrar()">MOSTRAR</button>
+    <button onclick="botonOcultar()">OCULTAR</button>
+
     <script src="/js/main.js"></script>
     <script src="/js/clases.js"></script>
 

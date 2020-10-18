@@ -1,10 +1,11 @@
 
 // CLASE LUCHADORES /////////////////////////////////
 class Luchadores {
-    constructor(nombre, ataque, defensa){
+    constructor(nombre, ataque, defensa, imagen){
         this.nombre = nombre,
         this.ataque = ataque,
         this.defensa = defensa,
+        this.imagen = imagen,
         this.vida = 100
     }
     golpear(){
@@ -15,10 +16,10 @@ class Luchadores {
 }
 
 // CONSTANTES LUCHADORES /////////////////////////////
-const Luchador1 = new Luchadores('Ryu', 30, 20);
-const Luchador2 = new Luchadores('Ken', 30, 20);
-const Luchador3 = new Luchadores('Honda', 30, 20);
-const Luchador4 = new Luchadores('Blanka', 30, 20);
+const Luchador1 = new Luchadores('Ryu', 30, 20, '<img src="/img/Ryu.png" alt="">');
+const Luchador2 = new Luchadores('Ken', 30, 20, '<img src="/img/Ken.png" alt="">');
+const Luchador3 = new Luchadores('Honda', 30, 20, '<img src="/img/Honda.png" alt="">');
+const Luchador4 = new Luchadores('Blanka', 30, 20, '<img src="/img/Blanka.png" alt="">');
 
 console.log(Luchador1);
 console.log(Luchador2);
