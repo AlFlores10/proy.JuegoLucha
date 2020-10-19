@@ -1,7 +1,13 @@
-/* body {
+body {
     background-color: black;
-} */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+} 
 
+/* /////////////////////////// DIV LUCHADORES ////////////////////////// */
 .selector {
     display: flex;
     flex-direction: row;
@@ -19,6 +25,7 @@
     height: 100%;
 }
 
+/* ////////////////////// DIV SELECCION DE LUCHADORES //////////////////////////////*/
 #selectorPlayer {
     display: flex;
     flex-direction: row;
@@ -86,4 +93,41 @@
     color: red;
     /* margin: 4em; */
     border: 1px solid black;
+}
+
+/* ////////////////////////// DIV REGISTRO DE BATALLA //////////////////////// */
+#combateLog {
+    width: 90%;
+    height: 10em;
+    margin: 5%;
+    /* background-color: gold; */
+    display: none;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+    color: green;
+}
+
+
+/* DIV FINAL DE PARTIDA */
+#finalPartida {
+    width: 90%;
+    height: 30em;
+    margin: 5%;
+    /* background-color: red; */
+    display: none;
+}
+
+
+#finalPartida img{
+    width: 90%;
+    height: 30em;
+    
+    /* background-color: red; */
+    
+}
+
+#btnGolpear {
+    display: none;
 }

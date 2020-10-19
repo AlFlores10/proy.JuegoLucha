@@ -4,39 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
-    
+
+<!-- DIV LUCHADORES -->
     <div class="selector" id="selector">
         <div onclick="selectorPersonaje(Luchador1)" class="fighter" id="fighter1">
-            <img src="/img/Ryu.png" alt=""></div>
+            <img src="./img/Ryu.png" alt=""></div>
         <div onclick="selectorPersonaje(Luchador2)" class="fighter" id="fighter2">
-            <img src="/img/Ken.png" alt=""></div>
+            <img src="./img/Ken.png" alt=""></div>
         <div onclick="selectorPersonaje(Luchador3)" class="fighter" id="fighter3">
-            <img src="/img/Honda.png" alt=""></div>
+            <img src="./img/Honda.png" alt=""></div>
         <div onclick="selectorPersonaje(Luchador4)" class="fighter" id="fighter4">
-            <img src="/img/Blanka.png" alt=""></div>
+            <img src="./img/Blanka.png" alt=""></div>
     </div>
 
-
+<!-- DIV SELECCION LUCHADORES -->
     <div id="selectorPlayer">
         <div id="selectorPlayer1">
             <h2>PLAYER 1</h2>
         </div>
         <div id="selectorVersus">
-            <img src="/img/Versus.png" alt="">
+            <img src="./img/Versus.png" alt="">
         </div>
         <div id="selectorPlayer2">
             <h2>PLAYER 2</h2>
         </div>
     </div>
 
-    <button onclick="botonMostrar()">MOSTRAR</button>
-    <button onclick="botonOcultar()">OCULTAR</button>
+<!-- DIV REGISTRO DE BATALLA -->
+    <div id="combateLog"></div>
 
-    <script src="/js/main.js"></script>
-    <script src="/js/clases.js"></script>
+
+<!-- DIV FINAL PARTIDA -->
+    <div id="finalPartida">
+        <img src="./img/YouWin.png" alt="">
+    </div>
+
+<!-- BOTONES -->
+    <button onclick="golpear()" id="btnGolpear">GOLPEAR</button>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/clases.js"></script>
 
 </body>
 </html>
