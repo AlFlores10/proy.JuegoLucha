@@ -41,6 +41,7 @@ let golpear = () => {
         combateLog.style.display = "none";
         finalPartida.style.display = "block";
         btnGolpear.style.display = "none";
+        btnGolpear2.style.display = "none";
         alert("JUEGO TERMINADO. J1 WIN");
         }
         else{
@@ -74,14 +75,14 @@ let golpear2 = () => {
         turno++;
         
     
-        }else if(arrayPersonajes[1].vida <= 0) {
+        }else if(arrayPersonajes[0].vida <= 0) {
 
         selector.style.display = "none";
         selectorPlayer.style.display = "none";
         combateLog.style.display = "none";
         finalPartida.style.display = "block";
         btnGolpear.style.display = "none";
-        alert("JUEGO TERMINADO. J1 WIN");
+        alert("JUEGO TERMINADO. J2 WIN");
         }
         else{
             selector.style.display = "none";
@@ -89,7 +90,7 @@ let golpear2 = () => {
             combateLog.style.display = "none";
             finalPartida.style.display = "block";
             btnGolpear.style.display = "none"; 
-            alert("JUEGO TERMINADO. J2 WIN");
+            alert("JUEGO TERMINADO. J1 WIN");
         }
     return;
 }
