@@ -9,7 +9,7 @@
 ***
 Videojuego de Lucha, creado en HTML5, CSS3 y JAVASCRIPT.
 ### Screenshot
-![Image text](https://images.meteociel.fr/im/4709/proy_VideoConsola_unu6.png)
+![Image text](https://images.meteociel.fr/im/2520/JuegoLucha_ixl5.png)
 ## Technologies
 ***
 Lista de tecnologías utilizadas en el proyecto:
